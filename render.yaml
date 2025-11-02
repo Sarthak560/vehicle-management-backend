@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: vehicle-management-backend
-    env: docker
-    plan: free
-    buildCommand: ./mvnw clean package -DskipTests
-    startCommand: java -jar target/*.jar
-    dockerfilePath: ./Dockerfile
