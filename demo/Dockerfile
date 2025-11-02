@@ -20,4 +20,6 @@ RUN ./mvnw clean package -DskipTests
 EXPOSE 8080
 
 # Run the built Spring Boot JAR
-CMD ["java", "-jar", "target/demo-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "target/nextworld-0.0.1-SNAPSHOT.jar"]
+
+
